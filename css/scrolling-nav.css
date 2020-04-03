@@ -34,7 +34,7 @@ nav ul li a {
     position: top;
 }
 
-li:active {
+a:active {
     color: white;
     
 	}
