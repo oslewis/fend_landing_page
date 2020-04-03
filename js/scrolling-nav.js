@@ -22,9 +22,3 @@ window.addEventListener("scroll", event => {
     });
 });
 
-
-
-$( '.navbar__menu li .navbar__list a' ).on( 'click', function () {
-	$( '.navbar__menu .navbar__list' ).find( 'li.active' ).removeClass( 'active' );
-	$( this ).parent( 'li' ).addClass( 'active' );
-});
