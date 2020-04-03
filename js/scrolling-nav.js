@@ -1,3 +1,8 @@
+
+
+
+// Alternative for Nav design 
+
 let mainNavLinks = document.querySelectorAll("nav ul li a");
 let mainSections = document.querySelectorAll("main section");
 
@@ -21,4 +26,3 @@ window.addEventListener("scroll", event => {
         }
     });
 });
-
