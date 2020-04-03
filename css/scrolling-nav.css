@@ -1,0 +1,40 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+nav {
+    white-space: nowrap;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+@media (min-height: 300px) {
+    nav ul {
+        position: fixed;
+        right: 0;
+        top: 50%;
+        width: 8em;
+        margin-top: -2.5em;
+    }
+}
+nav ul li a {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    }
+
+
+.top-of-page {
+    border: 1px solid inherit;
+    position: top;
+}
+
+li:active {
+    color: white;
+    
+	}

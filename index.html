@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Visit Japan - FEND</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+  <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list">
+        <li><a href="#section0">Top</a></li>
+        <li><a href="#section1">The Places</a></li>
+        <li><a href="#section2">The Food</a></li>
+        <li><a href="#section3">The Culture</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="section0" class="top-of-page"></div>
+    <header class="main__hero">
+      <h1>Visit Japan </h1>
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="Section 1" class="your-active-class">
+      <div class="landing__container">
+        <h2>The Places</h2>
+        <p>Known as the ‘Land of the Rising Sun’, Japan is an eclectic mix of past, present, and future, combining ancient samurai traditions and an impressive history with a modern-day persona and new world technology. The country is unique in that, until the late 19th century, it was ruled by the feudal Shogunate, with its semi-divine Emperor a powerless figurehead trapped in the Imperial Palace in the ancient city of Kyoto.</p>
+
+        <p>A land of contrasts, Japan is a fascinating destination for visitors. Combining the attractions of an ancient and unfamiliar culture with all the trappings of one of the world powerhouses in entertainment, fashion, and innovation, Japan is a journey of discovery wherever you go.</p>
+      </div>
+    </section>
+    <section id="section2" data-nav="Section 2">
+      <div class="landing__container">
+        <h2>The Food</h2>
+        <p>Wherever you are in Japan, it seems, you're never far from a great meal. Restaurants often specialise in just one dish – perhaps having spent generations perfecting it – and pay close attention to every stage, from sourcing the freshest, local ingredients to assembling the dish attractively. And as you'll quickly discover, Japanese cuisine has great regional variations. The hearty hotpots of the mountains are, for example, dramatically different from the delicate sushi for which the coast is famous. It's also intensely seasonal, meaning you can visit at a different time of year and experience totally new tastes.</p>
+
+        <p>Japanese cuisine (和食, washoku) offers an abundance of gastronomical delights with a boundless variety of regional and seasonal dishes. Restaurants in Japan range from mobile food stands to centuries-old ryotei, atmospheric drinking places, seasonally erected terraces over rivers, cheap chain shops and unique theme restaurants about ninja and robots. Many restaurants are specialized in a single type of dish, while others offer a variety of dishes.</p>
+      </div>
+    </section>
+    <section id="section3" data-nav="Section 3">
+      <div class="landing__container">
+        <h2>The Culture</h2>
+        <p>On the surface Japan appears exceedingly modern, but travelling around it offers numerous opportunities to connect with the country's traditional culture. Spend the night in a ryokan (traditional Japanese inn), sleeping on futons and tatami mats, and padding through well-worn wooden halls to the bathhouse (or go one step further and sleep in an old farmhouse). Meditate with monks or learn how to whisk bitter matcha (powdered green tea) into a froth. From the splendour of a Kyoto geisha dance to the spare beauty of a Zen rock garden, Japan has the power to enthral even the most jaded traveller.</p>
+
+        <p>Japan is a nation shaped by its rapid transition from isolationism to globalism. It represents a fusion of old world culture with newer Western practices which only illustrates how beautiful the culture is.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="page__footer">
+    <p>&copy O.S.Lewis</p>
+  </footer>
+
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
+</html>
