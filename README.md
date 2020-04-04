@@ -6,8 +6,15 @@
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+You can view the project on:
+https://oslewis.github.io/fend_landing_page/
 
-To get started, open `js/app.js` and start building out the app's functionality
+Alternatively, download the project and click on index.html to view the landing page.
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+## Dependencies
+
+No dependencies for this project.
+
+## Motivation
+
+Created a simple Landing page for Tourists to get a glimpse of Japan to entice travel of the beautiful country. I have been impacted greatly by the country as I have moved there in my late teens alone and it was one of the best experiences I've ever had in my life. I hope to get people intrigued into going and seeing the beauty of the culture and land, themselves.
