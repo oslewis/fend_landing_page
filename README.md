@@ -18,3 +18,11 @@ No dependencies for this project.
 ## Motivation
 
 Created a simple Landing page for Tourists to get a glimpse of Japan to entice travel of the beautiful country. I have been impacted greatly by the country as I have moved there in my late teens alone and it was one of the best experiences I've ever had in my life. I hope to get people intrigued into going and seeing the beauty of the culture and land, themselves.
+
+## Deployment
+
+Refer to index.html after cloning the project.
+
+## Built With
+
+HTML5, CSS3, Javascript.
